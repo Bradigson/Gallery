@@ -1,0 +1,196 @@
+#body-index1{
+   background:url(../imgs/emely-marchena-67Zvf9QiJ3Y-unsplash.jpg);
+   
+   background-size:cover;
+   display:flex;
+   justify-content: center;
+   
+}
+#button{
+    margin-top:200px;
+    width:310px;
+    height:310px;
+    border-radius:20rem;
+    background:none;
+    border:none;
+    position:relative;
+    display:flex;
+    justify-content: center;
+  
+    z-index:100;
+    animation-name:img;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    
+}
+@keyframes img{
+    0%{
+       
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+    70%{
+       
+        box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+    }
+    100%{
+       
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+#img-index1{
+    width:100%;
+    height:100%;
+
+}
+.cover{
+    background:rgba(0,0,0,.6);
+    backdrop-filter:blur(10px);
+    position:absolute;
+    top:90px;
+    width:102%;
+    height:101%;
+    border-radius:20rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    opacity:.0;
+    transition-property:all;
+    transition-duration:1s;
+}
+#button:hover > .cover{
+    top:1px;
+    opacity:unset;
+}
+.cover > a{
+    width:200px;
+    font-size:40px;
+    border:none;
+    box-shadow:none;
+    
+
+}
+
+
+
+.cover-body{
+    position:absolute;
+    background:rgba(0,0,0,.4);
+    backdrop-filter:blur(15px);
+    width:100%;
+    height:757px;
+}
+
+
+
+@media screen and (min-width:280px){
+    #body-index1{
+        background-size:cover;
+       
+        
+    }
+    #button{
+        width:150px;
+        height:150px;
+        margin-top:250px;
+    }
+    .cover > a{
+        font-size:20px;
+    }
+    .cover-body{
+        height:652px;
+    }
+}
+@media screen and (min-width:360px){
+    #button{
+        width:200px;
+        height:200px;
+        margin-top:220px;
+    }
+    .cover-body{
+        height:640px;
+    }
+}
+@media screen and (min-width:411px){
+
+    #body-index1{
+        background-size:cover;
+    }
+    .cover-body{
+        height:730px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:359px){
+    #button{
+        margin-top:180px;
+    }
+    .cover-body{
+        height:566px;
+    }
+}
+
+@media screen and (min-width:375px){
+
+    .cover-body{
+        height:665px;
+    }
+}
+
+@media screen and (min-width:414px){
+
+    .cover-body{
+        height:735px;
+    }
+}
+@media screen and (min-width:768px){
+
+    .cover-body{
+        height:1024px;
+ 
+   }
+   #body-index1{
+       
+       background-size:250%;
+   }
+   #button{
+       width:300px;
+       height:300px;
+    margin-top:330px;
+}
+.cover > a{
+    font-size:33px;
+}
+}
+
+@media screen and (min-width:1024px) and (max-width:1025px){
+
+    .cover-body{
+        height:1366px;
+ 
+   }
+
+   #button{
+    width:400px;
+    height:400px;
+    margin-top:470px;
+}
+.cover > a{
+    font-size:40px;
+}
+}
+@media screen and (min-width:1026px){
+
+    .cover-body{
+        height:757px;
+ 
+   }
+   
+   #button{
+
+    margin-top:230px;
+}
+#body-index1{
+    background-size:cover;
+}
+}
+
